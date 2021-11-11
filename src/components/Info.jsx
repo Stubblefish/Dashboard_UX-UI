@@ -58,7 +58,7 @@ margin-bottom: 2rem;
 `;
 
 const CardContent = styled.div`
-padding: 0.7rem 1rem 0.3rem 1rem;
+padding: 0%.7rem 1rem 0.3rem 1rem;
 `;
 
 const Row = styled.div`

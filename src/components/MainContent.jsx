@@ -14,7 +14,9 @@ function MainContent() {
                     <Earnings />
                     <Info />
                 </ColumnOneOne>
-                <ColumnTwoOne></ColumnTwoOne>
+                <ColumnTwoOne>
+                    <TitleText>Your Projects</TitleText>
+                </ColumnTwoOne>
             </SectionOne>
             <SectionTwo>
                 <ColumnOneTwo></ColumnOneTwo>

@@ -3,7 +3,11 @@ import styled from 'styled-components';
 import {themeColor} from "../utils";
 
 function Badge({ content, glow = false, paid = false, late = false }) {
-    return <Div glow={glow} paid={paid} late={late}>{content}</Div>    
+    return (
+    <Div glow={glow} paid={paid} late={late}>
+        {content}
+        </Div>    
+    )
 }
 
 const Div = styled.div`
@@ -14,8 +18,7 @@ color: white;
 background-color: ${themeColor};
 cursor: pointer;
 
-${({glow}) =>
-glow &&
+${({glow}) => glow &&
 `
 font-size= 0.8rem;
 padding: 0.2rem 0.5rem;
