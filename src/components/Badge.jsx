@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import {themeColor} from "../utils";
 
-function Badge({ content }) {
-    return <Div>{content}</Div>    
+function Badge({ content, glow = false, paid = false, late = false }) {
+    return <Div glow={glow} paid={paid} late={late}>{content}</Div>    
 }
 
 const Div = styled.div`
@@ -13,6 +13,16 @@ font-weight: 500;
 color: white;
 background-color: ${themeColor};
 cursor: pointer;
+
+${({glow}) =>
+glow &&
+`
+font-size= 0.8rem;
+padding: 0.2rem 0.5rem;
+font-weight: normal;
+color: #2f233d;
+background-color: rgba(109, 134, 245, 0.192);
+`}
 `;
 
 export default Badge
