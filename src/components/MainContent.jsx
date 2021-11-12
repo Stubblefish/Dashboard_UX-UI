@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Earnings from "./Earnings";
 import Navbar from "./Navbar";
 import Info from "./Info";
+import Projects from "./Projects";
 
 function MainContent() {
     return (
@@ -16,6 +17,7 @@ function MainContent() {
                 </ColumnOneOne>
                 <ColumnTwoOne>
                     <TitleText>Your Projects</TitleText>
+                    <Projects />
                 </ColumnTwoOne>
             </SectionOne>
             <SectionTwo>
@@ -67,7 +69,12 @@ display: flex;
 gap: 3rem;
 `;
 
-const ColumnTwoOne = styled.div``;
+const ColumnTwoOne = styled.div`
+display: flex;
+flex-direction: column;
+height: 115%;
+width: 100%;
+`;
 
 const ColumnOneTwo = styled.div`
 display: flex;

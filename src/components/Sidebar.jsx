@@ -61,7 +61,7 @@ flex-direction: column;
 const Avatar = styled.img`
 height: 7rem;
 border-radius: 6rem;
-margin-top20%;
+margin-top: 20%;
 `;
 const Name = styled.h1`
 color: white;
