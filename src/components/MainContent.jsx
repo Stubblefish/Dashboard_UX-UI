@@ -4,6 +4,7 @@ import Earnings from "./Earnings";
 import Navbar from "./Navbar";
 import Info from "./Info";
 import Projects from "./Projects";
+import Invoices from "./Invoices";
 
 function MainContent() {
     return (
@@ -21,7 +22,12 @@ function MainContent() {
                 </ColumnTwoOne>
             </SectionOne>
             <SectionTwo>
-                <ColumnOneTwo></ColumnOneTwo>
+                <ColumnOneTwo>
+                    <InvoiceContainer>
+                        <TitleText> Recent Invoices</TitleText>
+                        <Invoices />
+                    </InvoiceContainer>
+                </ColumnOneTwo>
                 <ColumnTwoTwo></ColumnTwoTwo>
             </SectionTwo>
         </SubContainer>
@@ -81,6 +87,10 @@ display: flex;
 flex-direction: column;
 height: 115%;
 width: 100%;
+`;
+
+const InvoiceContainer = styled.div`
+height: 60%
 `;
 
 const ColumnTwoTwo = styled.div``;

@@ -109,6 +109,7 @@ margin: auto auto;
 border-radius: 1rem;
 display: flex;
 flex-direction: column;
+justify-content: center;
 padding: 1rem;
 a {
     color: white;
