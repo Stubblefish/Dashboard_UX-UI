@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Dashboard_UX-UI/static/css/main.47c371a4.chunk.css",
+    "main.js": "/Dashboard_UX-UI/static/js/main.10d16b58.chunk.js",
+    "main.js.map": "/Dashboard_UX-UI/static/js/main.10d16b58.chunk.js.map",
+    "runtime-main.js": "/Dashboard_UX-UI/static/js/runtime-main.f94fdb6b.js",
+    "runtime-main.js.map": "/Dashboard_UX-UI/static/js/runtime-main.f94fdb6b.js.map",
+    "static/js/2.8d7c74aa.chunk.js": "/Dashboard_UX-UI/static/js/2.8d7c74aa.chunk.js",
+    "static/js/2.8d7c74aa.chunk.js.map": "/Dashboard_UX-UI/static/js/2.8d7c74aa.chunk.js.map",
+    "index.html": "/Dashboard_UX-UI/index.html",
+    "static/css/main.47c371a4.chunk.css.map": "/Dashboard_UX-UI/static/css/main.47c371a4.chunk.css.map",
+    "static/js/2.8d7c74aa.chunk.js.LICENSE.txt": "/Dashboard_UX-UI/static/js/2.8d7c74aa.chunk.js.LICENSE.txt",
+    "static/media/avatarImage.42755940.jpeg": "/Dashboard_UX-UI/static/media/avatarImage.42755940.jpeg",
+    "static/media/avatarImage2.b4835dfb.jpg": "/Dashboard_UX-UI/static/media/avatarImage2.b4835dfb.jpg",
+    "static/media/avatarImage3.8a99336c.jpg": "/Dashboard_UX-UI/static/media/avatarImage3.8a99336c.jpg",
+    "static/media/avatarImage4.fc586bb8.jpg": "/Dashboard_UX-UI/static/media/avatarImage4.fc586bb8.jpg",
+    "static/media/avatarImage5.68be6c2d.jpg": "/Dashboard_UX-UI/static/media/avatarImage5.68be6c2d.jpg",
+    "static/media/avatarImage6.51896e7a.jpg": "/Dashboard_UX-UI/static/media/avatarImage6.51896e7a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f94fdb6b.js",
+    "static/js/2.8d7c74aa.chunk.js",
+    "static/css/main.47c371a4.chunk.css",
+    "static/js/main.10d16b58.chunk.js"
+  ]
+}
